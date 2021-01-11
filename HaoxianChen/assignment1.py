@@ -151,7 +151,7 @@ def mark_movie():
     country_name = new_list[1]
     priority = new_list[2]
     result = ("{},{},{},{}".format(place_name,country_name,priority, visit_status))
-    result_2 = ("5 movies watched, 1 movies still to watch")
+    result_2 = ("4 movies watched, 1 movies still to watch")
     FILE.append(result)
     FILE.remove(FILE[number - 1])
     print(result_2)
