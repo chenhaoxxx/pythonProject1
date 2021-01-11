@@ -39,7 +39,7 @@ def menu():
         Adding_place()
 
     if menu == "W":
-        Mark_function()
+        mark_movie()
 
 
     else:
@@ -121,7 +121,7 @@ def Adding_place():
         return
     menu()
 
-def Mark_function():
+def mark_movie():
     visit_status = "l\n"
     if min(Remainder) == 0:
         print("No more places to watch")
