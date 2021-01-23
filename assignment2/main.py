@@ -2,7 +2,7 @@
 Name:HaoxianChen
 Date:19.1.2020
 Brief Project Description:
-
+https://github.com/chenhaoxxx/pythonProject1/tree/master/assignment2
 """
 from kivy.app import App
 from kivy.core.window import Window
